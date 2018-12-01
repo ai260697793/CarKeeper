@@ -1,0 +1,726 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC94031C21A92FF500E30B95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94031B21A92FF500E30B95 /* AppDelegate.swift */; };
+		EC94032421A92FF600E30B95 /* CarKeeper_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EC94032221A92FF600E30B95 /* CarKeeper_Swift.xcdatamodeld */; };
+		EC94032621A9300500E30B95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC94032521A9300500E30B95 /* Assets.xcassets */; };
+		EC94033421A9300600E30B95 /* CarKeeper_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94033321A9300600E30B95 /* CarKeeper_SwiftTests.swift */; };
+		EC94033F21A9300600E30B95 /* CarKeeper_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94033E21A9300600E30B95 /* CarKeeper_SwiftUITests.swift */; };
+		EC94035C21A958E000E30B95 /* MHBasicVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94035B21A958E000E30B95 /* MHBasicVC.swift */; };
+		EC94035E21A9591000E30B95 /* MHHomeTabbarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94035D21A9591000E30B95 /* MHHomeTabbarVC.swift */; };
+		EC94036021A9593100E30B95 /* MHBasicNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94035F21A9593100E30B95 /* MHBasicNavController.swift */; };
+		EC94036221A95CA800E30B95 /* MHMineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94036121A95CA800E30B95 /* MHMineVC.swift */; };
+		EC94036421A95CB700E30B95 /* MHHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94036321A95CB700E30B95 /* MHHomeVC.swift */; };
+		EC94036621A95CC900E30B95 /* MHAlbumVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC94036521A95CC900E30B95 /* MHAlbumVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC94033021A9300600E30B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC94031021A92FF500E30B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC94031721A92FF500E30B95;
+			remoteInfo = CarKeeper_Swift;
+		};
+		EC94033B21A9300600E30B95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC94031021A92FF500E30B95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC94031721A92FF500E30B95;
+			remoteInfo = CarKeeper_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC94031821A92FF500E30B95 /* CarKeeper_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarKeeper_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC94031B21A92FF500E30B95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC94032321A92FF600E30B95 /* CarKeeper_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarKeeper_Swift.xcdatamodel; sourceTree = "<group>"; };
+		EC94032521A9300500E30B95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC94032A21A9300500E30B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC94032F21A9300600E30B95 /* CarKeeper_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarKeeper_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC94033321A9300600E30B95 /* CarKeeper_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarKeeper_SwiftTests.swift; sourceTree = "<group>"; };
+		EC94033521A9300600E30B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC94033A21A9300600E30B95 /* CarKeeper_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarKeeper_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC94033E21A9300600E30B95 /* CarKeeper_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarKeeper_SwiftUITests.swift; sourceTree = "<group>"; };
+		EC94034021A9300600E30B95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC94035B21A958E000E30B95 /* MHBasicVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHBasicVC.swift; sourceTree = "<group>"; };
+		EC94035D21A9591000E30B95 /* MHHomeTabbarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHHomeTabbarVC.swift; sourceTree = "<group>"; };
+		EC94035F21A9593100E30B95 /* MHBasicNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHBasicNavController.swift; sourceTree = "<group>"; };
+		EC94036121A95CA800E30B95 /* MHMineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHMineVC.swift; sourceTree = "<group>"; };
+		EC94036321A95CB700E30B95 /* MHHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHHomeVC.swift; sourceTree = "<group>"; };
+		EC94036521A95CC900E30B95 /* MHAlbumVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MHAlbumVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC94031521A92FF500E30B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC94032C21A9300600E30B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC94033721A9300600E30B95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC94030F21A92FF500E30B95 = {
+			isa = PBXGroup;
+			children = (
+				EC94031A21A92FF500E30B95 /* CarKeeper_Swift */,
+				EC94033221A9300600E30B95 /* CarKeeper_SwiftTests */,
+				EC94033D21A9300600E30B95 /* CarKeeper_SwiftUITests */,
+				EC94031921A92FF500E30B95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC94031921A92FF500E30B95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC94031821A92FF500E30B95 /* CarKeeper_Swift.app */,
+				EC94032F21A9300600E30B95 /* CarKeeper_SwiftTests.xctest */,
+				EC94033A21A9300600E30B95 /* CarKeeper_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC94031A21A92FF500E30B95 /* CarKeeper_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				EC94034D21A9585800E30B95 /* UI */,
+				EC94031B21A92FF500E30B95 /* AppDelegate.swift */,
+				EC94034C21A9574600E30B95 /* Support */,
+			);
+			path = CarKeeper_Swift;
+			sourceTree = "<group>";
+		};
+		EC94033221A9300600E30B95 /* CarKeeper_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC94033321A9300600E30B95 /* CarKeeper_SwiftTests.swift */,
+				EC94033521A9300600E30B95 /* Info.plist */,
+			);
+			path = CarKeeper_SwiftTests;
+			sourceTree = "<group>";
+		};
+		EC94033D21A9300600E30B95 /* CarKeeper_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC94033E21A9300600E30B95 /* CarKeeper_SwiftUITests.swift */,
+				EC94034021A9300600E30B95 /* Info.plist */,
+			);
+			path = CarKeeper_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		EC94034C21A9574600E30B95 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				EC94032521A9300500E30B95 /* Assets.xcassets */,
+				EC94032A21A9300500E30B95 /* Info.plist */,
+				EC94032221A92FF600E30B95 /* CarKeeper_Swift.xcdatamodeld */,
+			);
+			name = Support;
+			sourceTree = "<group>";
+		};
+		EC94034D21A9585800E30B95 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				EC94035221A958B400E30B95 /* Album */,
+				EC94035621A958B400E30B95 /* Base */,
+				EC94034E21A958B300E30B95 /* Home */,
+				EC94035721A958B400E30B95 /* Mine */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		EC94034E21A958B300E30B95 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EC94034F21A958B300E30B95 /* Controller */,
+				EC94035021A958B300E30B95 /* Model */,
+				EC94035121A958B300E30B95 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EC94034F21A958B300E30B95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC94036321A95CB700E30B95 /* MHHomeVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC94035021A958B300E30B95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC94035121A958B300E30B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC94035221A958B400E30B95 /* Album */ = {
+			isa = PBXGroup;
+			children = (
+				EC94035321A958B400E30B95 /* Controller */,
+				EC94035421A958B400E30B95 /* Model */,
+				EC94035521A958B400E30B95 /* View */,
+			);
+			path = Album;
+			sourceTree = "<group>";
+		};
+		EC94035321A958B400E30B95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC94036521A95CC900E30B95 /* MHAlbumVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC94035421A958B400E30B95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC94035521A958B400E30B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EC94035621A958B400E30B95 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				EC94035B21A958E000E30B95 /* MHBasicVC.swift */,
+				EC94035D21A9591000E30B95 /* MHHomeTabbarVC.swift */,
+				EC94035F21A9593100E30B95 /* MHBasicNavController.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		EC94035721A958B400E30B95 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				EC94035821A958B400E30B95 /* Controller */,
+				EC94035921A958B400E30B95 /* Model */,
+				EC94035A21A958B400E30B95 /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		EC94035821A958B400E30B95 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EC94036121A95CA800E30B95 /* MHMineVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		EC94035921A958B400E30B95 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EC94035A21A958B400E30B95 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC94031721A92FF500E30B95 /* CarKeeper_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC94034321A9300600E30B95 /* Build configuration list for PBXNativeTarget "CarKeeper_Swift" */;
+			buildPhases = (
+				EC94031421A92FF500E30B95 /* Sources */,
+				EC94031521A92FF500E30B95 /* Frameworks */,
+				EC94031621A92FF500E30B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CarKeeper_Swift;
+			productName = CarKeeper_Swift;
+			productReference = EC94031821A92FF500E30B95 /* CarKeeper_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC94032E21A9300600E30B95 /* CarKeeper_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC94034621A9300600E30B95 /* Build configuration list for PBXNativeTarget "CarKeeper_SwiftTests" */;
+			buildPhases = (
+				EC94032B21A9300600E30B95 /* Sources */,
+				EC94032C21A9300600E30B95 /* Frameworks */,
+				EC94032D21A9300600E30B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC94033121A9300600E30B95 /* PBXTargetDependency */,
+			);
+			name = CarKeeper_SwiftTests;
+			productName = CarKeeper_SwiftTests;
+			productReference = EC94032F21A9300600E30B95 /* CarKeeper_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC94033921A9300600E30B95 /* CarKeeper_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC94034921A9300600E30B95 /* Build configuration list for PBXNativeTarget "CarKeeper_SwiftUITests" */;
+			buildPhases = (
+				EC94033621A9300600E30B95 /* Sources */,
+				EC94033721A9300600E30B95 /* Frameworks */,
+				EC94033821A9300600E30B95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC94033C21A9300600E30B95 /* PBXTargetDependency */,
+			);
+			name = CarKeeper_SwiftUITests;
+			productName = CarKeeper_SwiftUITests;
+			productReference = EC94033A21A9300600E30B95 /* CarKeeper_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC94031021A92FF500E30B95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MH;
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = henry;
+				TargetAttributes = {
+					EC94031721A92FF500E30B95 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					EC94032E21A9300600E30B95 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EC94031721A92FF500E30B95;
+					};
+					EC94033921A9300600E30B95 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = EC94031721A92FF500E30B95;
+					};
+				};
+			};
+			buildConfigurationList = EC94031321A92FF500E30B95 /* Build configuration list for PBXProject "CarKeeper_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC94030F21A92FF500E30B95;
+			productRefGroup = EC94031921A92FF500E30B95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC94031721A92FF500E30B95 /* CarKeeper_Swift */,
+				EC94032E21A9300600E30B95 /* CarKeeper_SwiftTests */,
+				EC94033921A9300600E30B95 /* CarKeeper_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC94031621A92FF500E30B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC94032621A9300500E30B95 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC94032D21A9300600E30B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC94033821A9300600E30B95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC94031421A92FF500E30B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC94035C21A958E000E30B95 /* MHBasicVC.swift in Sources */,
+				EC94036621A95CC900E30B95 /* MHAlbumVC.swift in Sources */,
+				EC94031C21A92FF500E30B95 /* AppDelegate.swift in Sources */,
+				EC94036021A9593100E30B95 /* MHBasicNavController.swift in Sources */,
+				EC94035E21A9591000E30B95 /* MHHomeTabbarVC.swift in Sources */,
+				EC94036221A95CA800E30B95 /* MHMineVC.swift in Sources */,
+				EC94032421A92FF600E30B95 /* CarKeeper_Swift.xcdatamodeld in Sources */,
+				EC94036421A95CB700E30B95 /* MHHomeVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC94032B21A9300600E30B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC94033421A9300600E30B95 /* CarKeeper_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC94033621A9300600E30B95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC94033F21A9300600E30B95 /* CarKeeper_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC94033121A9300600E30B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC94031721A92FF500E30B95 /* CarKeeper_Swift */;
+			targetProxy = EC94033021A9300600E30B95 /* PBXContainerItemProxy */;
+		};
+		EC94033C21A9300600E30B95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC94031721A92FF500E30B95 /* CarKeeper_Swift */;
+			targetProxy = EC94033B21A9300600E30B95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC94034121A9300600E30B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC94034221A9300600E30B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC94034421A9300600E30B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V8N93HLK3;
+				INFOPLIST_FILE = CarKeeper_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gkdrd.CarKeeper-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EC94034521A9300600E30B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V8N93HLK3;
+				INFOPLIST_FILE = CarKeeper_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gkdrd.CarKeeper-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		EC94034721A9300600E30B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V8N93HLK3;
+				INFOPLIST_FILE = CarKeeper_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gkdrd.CarKeeper-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarKeeper_Swift.app/CarKeeper_Swift";
+			};
+			name = Debug;
+		};
+		EC94034821A9300600E30B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V8N93HLK3;
+				INFOPLIST_FILE = CarKeeper_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gkdrd.CarKeeper-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarKeeper_Swift.app/CarKeeper_Swift";
+			};
+			name = Release;
+		};
+		EC94034A21A9300600E30B95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V8N93HLK3;
+				INFOPLIST_FILE = CarKeeper_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gkdrd.CarKeeper-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarKeeper_Swift;
+			};
+			name = Debug;
+		};
+		EC94034B21A9300600E30B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V8N93HLK3;
+				INFOPLIST_FILE = CarKeeper_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "gkdrd.CarKeeper-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarKeeper_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC94031321A92FF500E30B95 /* Build configuration list for PBXProject "CarKeeper_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC94034121A9300600E30B95 /* Debug */,
+				EC94034221A9300600E30B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC94034321A9300600E30B95 /* Build configuration list for PBXNativeTarget "CarKeeper_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC94034421A9300600E30B95 /* Debug */,
+				EC94034521A9300600E30B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC94034621A9300600E30B95 /* Build configuration list for PBXNativeTarget "CarKeeper_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC94034721A9300600E30B95 /* Debug */,
+				EC94034821A9300600E30B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC94034921A9300600E30B95 /* Build configuration list for PBXNativeTarget "CarKeeper_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC94034A21A9300600E30B95 /* Debug */,
+				EC94034B21A9300600E30B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EC94032221A92FF600E30B95 /* CarKeeper_Swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EC94032321A92FF600E30B95 /* CarKeeper_Swift.xcdatamodel */,
+			);
+			currentVersion = EC94032321A92FF600E30B95 /* CarKeeper_Swift.xcdatamodel */;
+			path = CarKeeper_Swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EC94031021A92FF500E30B95 /* Project object */;
+}
